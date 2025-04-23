@@ -31,7 +31,7 @@ public class Sort {
       
     }
     public static void main(String[] args) {
-        int V = 3, S = 2;
+        int V = 3, E = 3, S = 2;
         ArrayList<ArrayList<Integer>>adjArrayList=new ArrayList<>();
         for(int i=0;i<V;i++){
             adjArrayList.add(new ArrayList<>());
