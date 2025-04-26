@@ -37,7 +37,7 @@ public class ShortBinaryMaze {
                 dist[nrow][ncol]=Steps+1;
                 if(nrow==destination[0]&&ncol==destination[1]){
                     return Steps+1;
-                }
+                } 
                 Q.add(new Pair(Steps+1, nrow, ncol));
                 
             }
